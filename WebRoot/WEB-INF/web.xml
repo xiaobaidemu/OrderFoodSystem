@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>adminLoad</servlet-name>
+  <servlet-class>t.o.servlet.adminLoad</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>foodadd</servlet-name>
+    <servlet-class>t.o.servlet.foodadd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>foodchange</servlet-name>
+    <servlet-class>t.o.servlet.foodchange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userchange</servlet-name>
+    <servlet-class>t.o.servlet.userchange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>orderchange</servlet-name>
+    <servlet-class>t.o.servlet.orderchange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>compositionadd</servlet-name>
+    <servlet-class>t.o.servlet.compositionadd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>compositionchange</servlet-name>
+    <servlet-class>t.o.servlet.compositionchange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pwdchange</servlet-name>
+    <servlet-class>t.o.servlet.pwdchange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminvalidate</servlet-name>
+    <servlet-class>t.o.servlet.adminvalidate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>outadmin</servlet-name>
+    <servlet-class>t.o.servlet.outadmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>foodaddcheck</servlet-name>
+    <servlet-class>t.o.servlet.foodaddcheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>hotFood</servlet-name>
+    <servlet-class>t.o.userServlet.hotFood</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>validate</servlet-name>
+    <servlet-class>t.o.userServlet.validate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userload</servlet-name>
+    <servlet-class>t.o.userServlet.userload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>shoppingcar</servlet-name>
+    <servlet-class>t.o.userServlet.shoppingcar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>foodmessage</servlet-name>
+    <servlet-class>t.o.userServlet.foodmessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>composition</servlet-name>
+    <servlet-class>t.o.userServlet.composition</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>foodlist</servlet-name>
+    <servlet-class>t.o.userServlet.foodlist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ordershow</servlet-name>
+    <servlet-class>t.o.userServlet.ordershow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>newuser</servlet-name>
+    <servlet-class>t.o.userServlet.newuser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changemessage</servlet-name>
+    <servlet-class>t.o.userServlet.changemessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>orderchangeshow</servlet-name>
+    <servlet-class>t.o.servlet.orderchangeshow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>allfood</servlet-name>
+    <servlet-class>t.o.userServlet.allfood</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostComment</servlet-name>
+    <servlet-class>t.o.userServlet.PostComment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Commentchange</servlet-name>
+    <servlet-class>t.o.servlet.Commentchange</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <servlet-mapping>
+  <servlet-name>adminLoad</servlet-name>
+  <url-pattern>/adminLoad</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>foodadd</servlet-name>
+    <url-pattern>/foodadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>foodchange</servlet-name>
+    <url-pattern>/foodchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userchange</servlet-name>
+    <url-pattern>/userchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderchange</servlet-name>
+    <url-pattern>/orderchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>compositionadd</servlet-name>
+    <url-pattern>/compositionadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>compositionchange</servlet-name>
+    <url-pattern>/compositionchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pwdchange</servlet-name>
+    <url-pattern>/pwdchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminvalidate</servlet-name>
+    <url-pattern>/adminvalidate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>outadmin</servlet-name>
+    <url-pattern>/outadmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>foodaddcheck</servlet-name>
+    <url-pattern>/foodaddcheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>hotFood</servlet-name>
+    <url-pattern>/hotFood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>validate</servlet-name>
+    <url-pattern>/validate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userload</servlet-name>
+    <url-pattern>/userload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoppingcar</servlet-name>
+    <url-pattern>/shoppingcar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>foodmessage</servlet-name>
+    <url-pattern>/foodmessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>composition</servlet-name>
+    <url-pattern>/composition</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>foodlist</servlet-name>
+    <url-pattern>/foodlist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ordershow</servlet-name>
+    <url-pattern>/ordershow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newuser</servlet-name>
+    <url-pattern>/newuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changemessage</servlet-name>
+    <url-pattern>/changemessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderchangeshow</servlet-name>
+    <url-pattern>/orderchangeshow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>allfood</servlet-name>
+    <url-pattern>/allfood</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>PostComment</servlet-name>
+    <url-pattern>/PostComment</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>Commentchange</servlet-name>
+    <url-pattern>/Commentchange</url-pattern>
+  </servlet-mapping>
+  
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+</web-app>

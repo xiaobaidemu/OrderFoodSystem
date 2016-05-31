@@ -1,0 +1,75 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@page import="t.o.bean.foodBean" %>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>绿丰花园时尚餐厅</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+<link rel="stylesheet" type="text/css" href="<%=basePath%>css/all.css">
+<style type="text/css">
+	#showfood{
+		height:525px;
+		width:740px;
+		background-image:url(images/8.jpg);
+	}
+	table{
+		margin-top: 10px;
+	}
+	.STYLE1 {
+		font-family: "鏂板畫浣�;
+		font-size: 18px;
+		font-style: italic;
+		font-weight: bold;
+		color: #7e8901;
+	}
+</style>
+<script type="text/javascript">
+	function addcar(object){
+		//window.open("shoppingcar?food_no=" + object.id,"_top");
+		window.location.href = "shoppingcar?food_no=" + object.id;
+	}
+</script>
+  </head>
+  
+  <body leftmargin="0" topmargin="0">
+    <div id="showfood" align="center">
+			<table width="95%" height="453" >
+				<tr><td colspan="2" align="left" height="33"><span class="STYLE1"><%=session.getAttribute("foodtype") %></span><br></td></tr>
+				<tr><td valign="top"><table style="margin-top: 0px;" align="center"><tr>
+				<%!int size = 0; %>
+				<% 
+						response.setCharacterEncoding("utf-8");
+				    	ArrayList<foodBean> foodList = (ArrayList<foodBean>)session.getAttribute("foodList");
+				    	size = foodList.size();
+				    	foodBean foodbean;
+				    	for(int i=0;i<size;i++){
+				    		foodbean = foodList.get(i);
+				 %>
+				 <td height="80" width="100"><a href="foodmessage?no=<%=foodbean.getFood_no() %>" target="_blank"><img src="images/foodimg/<%=foodbean.getFood_no() %>.jpg" width="90" height="68"/></a></td>
+					<td width="140"><a href="foodmessage?no=<%=foodbean.getFood_no() %>" target="_blank"><%=foodbean.getFood_name() %></a><br/>浠锋牸锛�%=foodbean.getFood_price() %>鍏�br/>
+						<input type="button" id="<%=foodbean.getFood_no() %>" value="鍔犲叆璐墿杞� onclick="addcar(this);">
+					</td>
+				 	<%if(i%3==2){out.print("</tr><tr>");}
+				 } 
+				 System.out.print(size);%>
+				</tr></table></td></tr>
+			</table>
+			<table style="margin-top: 0px;" width="95%" ><tr><td align="center"><%=session.getAttribute("str") %></td></tr></table>
+		</div>
+  </body>
+</html>

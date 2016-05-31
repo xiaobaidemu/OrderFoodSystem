@@ -1,0 +1,45 @@
+	BODY {
+		FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+	}
+	TABLE {
+		FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+	}
+	INPUT {
+		FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+	}
+	SELECT {
+		FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+	}
+	TEXTAREA {
+		FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+	}
+	A:link {
+		COLOR: #036; TEXT-DECORATION: none
+	}
+	A:visited {
+		COLOR: #036; TEXT-DECORATION: none
+	}
+	A:hover {
+		COLOR: #f60; TEXT-DECORATION: underline
+	}
+	A.menuChild:link {
+		COLOR: #036; TEXT-DECORATION: none
+	}
+	A.menuChild:visited {
+		COLOR: #036; TEXT-DECORATION: none
+	}
+	A.menuChild:hover {
+		COLOR: #f60; TEXT-DECORATION: underline
+	}
+	A.menuParent:link {
+		COLOR: #000; TEXT-DECORATION: none
+	}
+	A.menuParent:visited {
+		COLOR: #000; TEXT-DECORATION: none
+	}
+	A.menuParent:hover {
+		COLOR: #f60; TEXT-DECORATION: none
+	}
+	form{margin: 0px;}
+	img{border: 0px;}
+	

@@ -1,0 +1,224 @@
+﻿body 
+{
+    background: #DDDDD9;
+    font-family: Arial;
+    color: #696969;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.Comment-Container
+{
+    background: #FFFFFF;
+    width: 930px;
+    height: auto;
+    margin: 20px auto 0px auto;
+    padding: 10px 5px 10px 5px;
+}
+
+.Comment
+{
+    float: left;
+    clear:none;
+    width: 450px;
+    height: auto;
+    margin: 5px 5px 10px 5px;
+    border: 1px solid #e1e1e1;
+    background: #f2f2f2;
+    position: relative;
+}
+
+.Comment-img-container
+{
+    float: left;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #0099FF;
+    margin: 0 0 0 0;
+    text-align: center;
+    position: relative;
+}
+
+.Comment-img-container:hover
+{
+    border: 1px solid #3366FF;
+}
+
+.Comment-img-container Comment-img
+{
+     width: 60px;
+     height: 60px;
+     margin: 5px 5px 5px 5px;
+}
+
+.Comment-Content-Container
+{
+    width: 365px;
+    height: auto;
+    margin: 0px 5px 10px 75px;
+}
+
+.Comment-User-Containner
+{
+    width: 365px;
+    height: 20px;
+    line-height: 16px;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 5px 0 5px 0;
+}
+
+.Comment-User-Containner ul 
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.Comment-User-Containner ul li
+{
+    float: left;
+    color: #000000;
+    font-size:12px;
+}
+
+.Comment-User-Containner ul li h3 
+{
+    color: #5C7DDE;
+    font-size: 16px;
+    font-weight:bold;
+    margin: 0 0 5px 0;
+}
+
+.Comment-User-Containner ul li h3:hover
+{
+    color: #0000FF;
+}
+
+.Comment-Content
+{
+    width: 365px;
+    height: auto;
+    margin: 5px 5px 10px 0;
+    border: 1px solid #E0E0D1;
+    white-space:pre-wrap;
+}
+
+.Comment-Content:hover
+{
+    border: 1px solid #BDBDBD;
+}
+
+.Comment-Delete-btn
+{
+    display: none;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #FF6600;
+    color: #FFFFFF;
+    font-family: Calibri;
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid #3399FF;
+    text-align: center;
+}
+
+.Comment-Delete-btn:hover
+{
+    cursor: pointer;
+    background-color: #FF9933;
+}
+
+.Comment-Reply-btn
+{
+    display: none;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    background: #66CCFF;
+    color: #FFFFFF;
+    font-family: Calibri;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid #3399FF;
+    text-align: center;
+    font-style: normal;
+}
+
+.Comment-Reply-btn:hover
+{
+    cursor: pointer;
+    background-color: #0066FF;
+}
+
+.Comment:hover .Comment-Reply-btn
+{
+    display: block;
+}
+
+.Comment:hover .Comment-Delete-btn
+{
+    display: block;
+}
+
+.Comment-Post-time
+{
+    color: #848483;
+    font-size: 12px;
+    font-family: Calibri;
+    margin:5px 0 10px 75px ;
+}
+
+.Comment-Insert-Container
+{
+    background: #FFFFFF;
+    width: 930px;
+    height: auto;
+    margin: 20px auto 0px auto;
+    padding: 10px 5px 10px 5px;
+    position: relative;
+}
+
+.Comment-Insert-Container h3
+{
+    margin: 5px 20px 10px 10px;
+    width: 500px;
+    line-height: 20px;
+    font-size:14px;
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.Comment-Insert-Container textarea
+{
+    margin: 5px 20px 10px 10px;
+    width: 500px;
+    height: 60px;
+    border: 1px solid #B6B6B6;
+}
+
+.Comment-Insert-btn
+{
+    display: block;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    background: #3399FF;
+    color: #FFFFFF;
+    font-family:Arial;
+    font-size:14px;
+    position: absolute;
+    top: 10px;
+    right:380px;
+    border: 1px solid #B2B2FF;
+    text-align: center;
+}
+
+.Comment-Insert-btn:hover
+{
+    cursor: pointer;
+}
